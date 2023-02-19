@@ -1,0 +1,78 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+.section-padding {
+  padding: 45px 0px;
+}
+.bg-light-grey {
+  background: #505866;
+}
+
+.bg-normal-grey {
+  background: #343f48;
+}
+.bg-grey {
+  background: #29333d;
+}
+.img-circls {
+  display: inline-block;
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.pos-abs-div {
+  position: absolute;
+  right: 0;
+  width: 43%;
+  height: 352px;
+}
+.p-width{
+  width: 99%;
+}
+.border-div {
+  border: 1px solid white;
+}
+
+@media (max-width: 768px) {  
+  .pos-abs-div {
+    position: relative;
+    right: auto;
+    width: 100%;
+
+  }
+  .p-width{
+    width: 100%;
+  }
+  .padding-extra {
+    padding-bottom: 40px;
+    background-color: rgb(127, 255, 127);
+  
+  }
+  
+}
+@media (max-width: 992px) {  
+  .pos-abs-div {
+    height: 460px;
+    background-color: aquamarine;
+  }
+  .padding-extra {
+    padding-bottom: 20px;
+    background-color: rgb(255, 127, 144);
+  
+  }
+}
+@media (min-width: 992px) { 
+.padding-extra {
+  padding-bottom: 80px;
+  background-color: rgb(155, 127, 255);
+
+}
+}
