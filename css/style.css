@@ -55,6 +55,10 @@
   margin-left: 8px;
   margin-top: 15px;
 }
+.carousel-item .class {
+  height: 500px;
+  width: 100%;
+}
 @media (max-width: 768px) {  
   .pos-abs-div {
     position: relative;
